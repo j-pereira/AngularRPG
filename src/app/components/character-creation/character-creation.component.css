@@ -1,0 +1,54 @@
+.container-fluid{
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.sidebar {
+	background-color: #ffefe0;
+}
+
+	.sidebar ul {
+		list-style: none;
+		text-indent: 0;
+		padding: 0;
+	}
+
+	.sidebar li {
+		cursor: pointer;
+		display: block;
+		background-color: #598e59;
+		color: white;
+		border-radius: 7px;
+	}
+
+	.sidebar li.active {
+		background-color: #31b0d5;
+	}
+
+.gender-button {
+	cursor: pointer;
+	display: block;
+	background-color: #598e59;
+	color: white;
+	border-radius: 7px;
+	width: 50px;
+	font-size: 20px;
+}
+
+	.gender-button.active {
+		background-color: #31b0d5;
+	}
+
+.continue-button {
+	cursor: pointer;
+	display: block;
+	background-color: #31b0d5;
+	color: white;
+	border: none;
+	border-radius: 7px;
+}
+
+	.continue-button.disabled {
+		background-color: #598e59;
+		cursor: auto;
+	}
